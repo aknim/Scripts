@@ -1,0 +1,3 @@
+#Call a command which was getting repeatedly called again and again without change
+#USAGE: Put the command in file: c. chmod +x c. Run: run_command
+./c
