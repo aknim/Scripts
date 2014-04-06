@@ -1,0 +1,6 @@
+#sorts file by last modified and lists them
+#usage: script path numberOfFiles
+p=$1;
+n=$2;
+
+/bin/ls -c -lt "$p" | /usr/bin/head -"$n";
