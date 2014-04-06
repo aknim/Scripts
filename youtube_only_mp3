@@ -1,0 +1,3 @@
+#Just download the mp3 into Downloads folder
+link=$1;
+cd /home/akshaya/Downloads; youtube-dl "${link}" --extract-audio --audio-format=mp3 --title
